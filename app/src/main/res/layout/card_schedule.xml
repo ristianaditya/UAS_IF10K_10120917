@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cardMaterial"
+        android:layout_width="@dimen/_380dp"
+        android:layout_height="@dimen/_70dp"
+        android:layout_marginBottom="@dimen/_15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageClub1"
+            android:layout_width="@dimen/_35dp"
+            android:layout_height="@dimen/_35dp"
+            android:layout_marginStart="@dimen/_10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textHome"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/arsenal" />
+
+        <TextView
+            android:id="@+id/textHome"
+            android:layout_width="@dimen/_80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/arsenal"
+            style="@style/robotoMedium"
+            android:textAlignment="textEnd"
+            android:layout_marginStart="@dimen/_10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textDate"
+            style="@style/robotoMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_29_agustus_2022"
+            android:textSize="@dimen/_12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageClub2"
+            app:layout_constraintEnd_toStartOf="@+id/imageClub2"
+            app:layout_constraintStart_toEndOf="@+id/imageClub1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textTime"
+            style="@style/robotoMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_19_40"
+            android:textSize="@dimen/_12sp"
+            app:layout_constraintEnd_toEndOf="@+id/textDate"
+            app:layout_constraintStart_toStartOf="@+id/textDate"
+            app:layout_constraintTop_toBottomOf="@+id/textDate" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageClub2"
+            android:layout_width="@dimen/_35dp"
+            android:layout_height="@dimen/_35dp"
+            android:layout_marginEnd="@dimen/_10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textAway"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/arsenal" />
+
+        <TextView
+            android:id="@+id/textAway"
+            style="@style/robotoMedium"
+            android:layout_width="@dimen/_80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/arsenal"
+            android:layout_marginEnd="@dimen/_10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/imageview"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

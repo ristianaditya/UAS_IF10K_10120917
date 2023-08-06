@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">UAS_IF10K_10120917</string>
+    <string name="skip">Skip</string>
+
+    <string name="titleSlider1">Premier League</string>
+    <string name="titleSlider2">The Beautiful Game</string>
+    <string name="titleSlider3">Kick-Off to Glory</string>
+    <string name="bodySlider1">Selamat datang di aplikasi Premier League! Aplikasi ini akan membawa Anda masuk ke dalam dunia sepak bola yang paling menarik dan prestisius. </string>
+    <string name="bodySlider2">Nikmati pengalaman menyaksikan pertandingan-pertandingan penuh aksi dari tim-tim terbaik dan legenda-legenda sepak bola.</string>
+    <string name="bodySlider3">Dapatkan akses ke berita terkini, statistik, dan informasi eksklusif tentang tim favorit Anda. Ayo, rayakan semangat sepak bola dalam Premier League Apps!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_2_2">2 - 2</string>
+    <string name="date">023-05-01 21:00</string>
+    <string name="match_schedule">Match Schedule</string>
+    <string name="standings">Standings</string>
+    <string name="premier_league">Premier League</string>
+    <string name="club">Club</string>
+    <string name="w">W</string>
+    <string name="d">D</string>
+    <string name="l">L</string>
+    <string name="point">Point</string>
+    <string name="__2_2">2  -  2</string>
+    <string name="full_time">Full Time</string>
+    <string name="de_jong">De Jong</string>
+    <string name="statistic_match">Statistic Match</string>
+    <string name="shoot">Shoot</string>
+    <string name="_20">20</string>
+    <string name="shoot_on_target">Shoot on Target</string>
+    <string name="ball_possession">Ball Possession</string>
+    <string name="pass">Pass</string>
+    <string name="pass_accuracy">Pass Accuracy</string>
+    <string name="foul">Foul</string>
+    <string name="yellow_card">Yellow Card</string>
+    <string name="corner_kick">Corner Kick</string>
+    <string name="offside">Offside</string>
+    <string name="top_scored">Top Scored</string>
+    <string name="goal_scored">Goal Scored</string>
+    <string name="player_name">Player Name</string>
+    <string name="goals">Goals</string>
+    <string name="arsenal">Arsenal</string>
+    <string name="_0">0</string>
+    <string name="_1">1</string>
+    <string name="_21">21</string>
+    <string name="_29_agustus_2022">29 Agustus 2022</string>
+    <string name="_19_40">19.40</string>
+    <string name="fulltime">Fulltime</string>
+    <string name="textview">TextView</string>
+    <string name="_1_">1.</string>
+    <string name="aleksandar_mitrovic">Aleksandar Mitrovic</string>
+    <string name="siapa_team_favourite_mu">Siapa team Favourite mu ?</string>
+    <string name="favourite_team">Favourite Team</string>
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:flow_horizontalAlign="center"
+    >
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/sliderImage"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_330dp"
+        />
+
+    <TextView
+        android:id="@+id/sliderTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/robotoBold"
+        android:layout_marginTop="@dimen/_30dp"
+        android:textSize="@dimen/_27sp"
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/sliderBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15dp"
+        style="@style/robotoReguler"
+        android:textSize="@dimen/_17sp"
+        android:textAlignment="center"
+        android:layout_marginHorizontal="@dimen/_50dp"
+        android:textColor="@color/white50" />
+
+</LinearLayout>

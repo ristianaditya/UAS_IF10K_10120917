@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple"
+    tools:context=".SelectTeamActivity">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_wt"
+            >
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_30dp"
+                android:layout_marginTop="@dimen/_25dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/logo_premier" />
+
+            <TextView
+                android:id="@+id/textView"
+                style="@style/robotoReguler"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/siapa_team_favourite_mu"
+                android:textColor="@color/white"
+                android:layout_marginTop="30dp"
+                app:layout_constraintEnd_toEndOf="@+id/imageView3"
+                app:layout_constraintStart_toStartOf="@+id/imageView3"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/gridFavorite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:horizontalSpacing="@dimen/_10dp"
+                android:numColumns="3"
+                android:layout_marginTop="10dp"
+                android:paddingStart="@dimen/_20dp"
+                android:paddingEnd="@dimen/_20dp"
+                android:verticalSpacing="@dimen/_15dp"
+                tools:listitem="@layout/card_club"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>

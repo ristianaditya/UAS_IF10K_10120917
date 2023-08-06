@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.uas_if10k_10120917.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/standingsFragment"
+        android:name="com.example.uas_if10k_10120917.StandingsFragment"
+        android:label="fragment_standings"
+        tools:layout="@layout/fragment_standings" />
+    <activity
+        android:id="@+id/activitySplash"
+        android:name="com.example.uas_if10k_10120917.ActivitySplash"
+        android:label="activity_splash"
+        tools:layout="@layout/activity_splash" />
+    <activity
+        android:id="@+id/walkTroughMainActivity"
+        android:name="com.example.uas_if10k_10120917.WalkTroughMainActivity"
+        android:label="activity_walk_trough_main"
+        tools:layout="@layout/activity_walk_trough_main" />
+    <fragment
+        android:id="@+id/goalFragment"
+        android:name="com.example.uas_if10k_10120917.GoalFragment"
+        android:label="fragment_goal"
+        tools:layout="@layout/fragment_goal" />
+    <fragment
+        android:id="@+id/matchDetailFragment"
+        android:name="com.example.uas_if10k_10120917.MatchDetailFragment"
+        android:label="fragment_match_detail"
+        tools:layout="@layout/fragment_match_detail" />
+    <fragment
+        android:id="@+id/favouriteTeamFragment"
+        android:name="com.example.uas_if10k_10120917.FavouriteTeamFragment"
+        android:label="fragment_favourite_team"
+        tools:layout="@layout/fragment_favourite_team" />
+    <activity
+        android:id="@+id/selectTeamActivity"
+        android:name="com.example.uas_if10k_10120917.SelectTeamActivity"
+        android:label="activity_select_team"
+        tools:layout="@layout/activity_select_team" />
+</navigation>
