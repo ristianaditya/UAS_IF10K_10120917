@@ -58,7 +58,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/match_schedule"
-                android:layout_marginTop="@dimen/_20dp"
+                android:layout_marginTop="@dimen/_25dp"
                 android:layout_marginStart="@dimen/_20dp"
                 style="@style/robotoBold"
                 android:textSize="@dimen/_14sp"
@@ -69,7 +69,7 @@
                 android:id="@+id/recyclerviewSchedule"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_25dp"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
                 android:orientation="horizontal"
@@ -77,6 +77,21 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textTitleHome"
                 tools:listitem="@layout/card_schedule" />
+
+            <Button
+                android:id="@+id/buttonFilter"
+                android:layout_width="110dp"
+                android:layout_height="45dp"
+                android:text="Filter Favourite"
+                android:paddingStart="0dp"
+                android:paddingTop="0dp"
+                android:paddingBottom="@dimen/_0dp"
+                android:paddingEnd="0dp"
+                android:textSize="12sp"
+                android:layout_marginEnd="10dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textTitleHome"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/textTitleHome" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

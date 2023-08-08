@@ -12,7 +12,7 @@
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/sliderImage"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/_330dp"
+        android:layout_height="300dp"
         />
 
     <TextView
@@ -20,7 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         style="@style/robotoBold"
-        android:layout_marginTop="@dimen/_30dp"
+        android:layout_marginTop="@dimen/_40dp"
         android:textSize="@dimen/_27sp"
         android:textAlignment="center"
         android:textColor="@color/white" />

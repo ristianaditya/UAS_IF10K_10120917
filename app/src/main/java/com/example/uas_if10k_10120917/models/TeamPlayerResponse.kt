@@ -12,4 +12,12 @@ data class Player(
     val player_number: String?,
     val player_type: String?,
     val player_image: String?,
+    val player_match_played: String?,
+    val player_goals: String?,
+    val player_rating: String?,
+    val player_birthdate: String?,
+    val player_yellow_cards: String?,
+    val player_red_cards: String?,
+    val player_age: String?,
+    val player_passes: String?,
 )

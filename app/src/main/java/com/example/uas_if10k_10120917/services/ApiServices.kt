@@ -18,11 +18,17 @@ interface ApiServices {
         const val league_id = "152"
     }
 
-    @GET("?action=get_events&from=2023-05-01&to=2023-08-01&league_id=$league_id&APIkey=$API_KEY")
-    fun getFixtures(): Call<ArrayList<FixturesResponse>>
+    @GET("?action=get_events&league_id=$league_id&APIkey=$API_KEY")
+    fun getFixtures(
+        @Query("from") dateNow: String,
+        @Query("to") dateTo: String
+    ): Call<ArrayList<FixturesResponse>>
 
-    @GET("?action=get_events&from=2023-08-01&to=2024-08-01&league_id=$league_id&APIkey=$API_KEY")
-    fun getSchedule(): Call<ArrayList<ScheduleResponse>>
+    @GET("?action=get_events&league_id=$league_id&APIkey=$API_KEY")
+    fun getSchedule(
+        @Query("from") dateNow: String,
+        @Query("to") dateTo: String
+    ): Call<ArrayList<ScheduleResponse>>
 
     @GET("?action=get_standings&league_id=$league_id&APIkey=$API_KEY")
     fun getStandings(): Call<ArrayList<StandingsResponse>>
